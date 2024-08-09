@@ -1,8 +1,10 @@
 Chat-PDF-Streamlit-App:
 
-The is an LLM powered Chat-PDF Streamlit-based application that leverages large language models (LLMs) to enable interactive conversations with PDF documents. This project integrates advanced document processing, text chunking, and embeddings to allow users to upload multiple PDFs and engage in natural language queries about the documents. 
+An LLM powered Chat-PDF Streamlit-based application
 
-The app features a sleek, user-friendly interface, where users can upload files, select a preferred LLM (OpenAI, HuggingFace, or LaMini), and ask questions directly, receiving contextual responses from the trained model. This application is ideal for professionals needing quick insights from large documents, researchers, or anyone looking to efficiently interact with their textual data.
+This project involves the development of a Streamlit-based application that enables interactive conversations with PDF documents using a Large Language Model (LLM). The application allows users to upload PDF files, processes the document's content, and uses advanced text embeddings to transform the text into a searchable vector database. With this setup, users can ask natural language questions about the content of the uploaded PDFs and receive accurate and contextually relevant answers directly through a user-friendly interface.
+
+The application is built with Streamlit and integrates key Python libraries such as PyPDF for PDF text extraction, LangChain for text chunking, and a custom LLM model for generating responses. The app provides a seamless experience for file management, document processing, and interactive querying, making it a powerful tool for professionals, researchers, and anyone looking to extract insights from their PDF documents efficiently.
 
 
 
